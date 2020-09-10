@@ -1,0 +1,149 @@
+.middle_text{
+	font-family:'GothamPro';
+	max-width: 1400px;
+	margin: 0 auto;
+
+}
+.middle_text1{
+	font-family:'GothamPro';
+	padding-bottom: 31px;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.middle_menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 75px;
+	flex-wrap: wrap;
+}
+.middle_menu_item {
+	width: 25%;
+	overflow: hidden;
+	color: #fff;
+}
+.middle_menu_description a {
+	color: #313E47;
+	text-decoration: none;
+}
+.middle_menu_img {
+	height: 300px;
+	margin-bottom: -4px;
+	width: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+.middle_menu_description {
+	padding: 40px;
+	background: #FE4124;
+}
+
+.description_info{
+	border-bottom: dotted #fff 2px;
+	box-sizing: border-box;
+	padding-bottom: 20px;
+	min-width: auto;
+}
+
+.middle_menu_title {
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	font-family: 'CeraRoundPro';
+}
+.middle_menu_title::before {
+	content: '';
+	width: 5px;
+	height: 5px;
+	background: #fff;
+	border-radius: 50%;
+	display: block;
+	margin-right: 5px;
+}
+
+
+.middle_menu_item:nth-child(2) .middle_menu_description {
+	background: #313E47;
+}
+.middle_menu_item:nth-child(2) .middle_menu_description a {
+	color: #FE4124;
+}
+.middle_menu_item:nth-child(3) .middle_menu_description {
+	font-family: 'Marmelad';
+	background: #9FA3A5;
+
+}
+.middle_menu_item:nth-child(3) .middle_menu_description a {
+	font-family: 'Marmelad';
+	color: #fff;
+}
+.middle_menu_item:nth-child(4) .middle_menu_description {
+	font-family: 'Marmelad';
+	color: black;
+	background:#fff;
+}
+.middle_menu_item:nth-child(4) .middle_menu_description a {
+	color: #FE4124;
+}
+.middle_menu_item:nth-child(3) .middle_menu_title{
+	color: #313E47;
+}
+.middle_menu_item:nth-child(3) .middle_menu_title::before{
+	background:#313E47;
+}
+.middle_menu_item:nth-child(4) .middle_menu_title::before{
+	background:#313E47;
+}
+.middle_menu_item:nth-child(3) .description_info{
+	border-bottom: dotted #313E47 2px;
+}
+
+.middle_menu_item:nth-child(4) .description_info{
+	border-bottom: dotted #313E47 2px;
+}
+
+.burger {
+	display: none;
+}
+
+@media (max-width: 1024px) {
+	.link,
+	.selectric-wrapper {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 998px) {
+	.middle_menu_item {
+		width: 50%;
+	}
+	.burger {
+		display: block;
+	}
+	.top-menu__list {
+		display: none;
+	}
+}
+
+
+@media (max-width: 576px) {
+	.middle_menu_item {
+		width: 100%;
+	}
+	.description_info{
+		font-size: 27px;
+	}
+	.middle_menu_title{
+		font-size: 23px;
+	}
+	.middle_text1{
+		margin-left: 12px;
+		font-size: 24px;
+		padding-bottom: 10px;
+
+	}
+
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 52 52">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #95989a;
+        fill: url(#pattern);
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 138 127">
+      <image width="138" height="127" xlink:href="data:image/jpeg;base64,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"/>
+    </pattern>
+  </defs>
+  <g id="Без_названия" data-name="Без названия" class="cls-1">
+    <circle class="cls-2" cx="26" cy="26" r="26"/>
+    <circle class="cls-3" cx="26" cy="26" r="25.5"/>
+  </g>
+</svg>

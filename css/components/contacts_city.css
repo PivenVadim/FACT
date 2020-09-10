@@ -1,0 +1,78 @@
+.contacts{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1400px;
+	box-sizing: border-box;
+	padding: 0 20px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.contacts_city{
+    display: flex;
+	font-family: 'Gilroy';
+    font-size:13px;
+    font-weight: bold;
+    /* justify-content: center; */
+
+}
+.info{
+    width: 25%;
+    margin-bottom: 70px;
+}
+.contacts_city_adress{
+	font-family: 'CeraRoundPro';
+    font-size: 14px;
+    font-weight: normal;
+}
+    .social {
+        display: flex;
+        align-items: center;
+        height: 30px;
+        padding-top: 10px;
+        width: 25%;
+    }
+
+    .social img {
+        width: 20px;
+        margin-left: 15px;
+    }
+
+    .social a:first-child img {
+        margin-left: 0;
+    }
+
+    .social a {
+        font-size: 0;
+    }
+
+    .social a:nth-child(3) img {
+        width: 50px;
+	}
+
+	footer {
+		border-top: 1px solid #D5D5D5;
+		padding-top: 50px;
+    }
+    
+    @media (max-width: 576px){
+        .contacts{
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        .info{
+            margin-bottom: 20px;
+            width: 100%;
+            margin: 0 auto;
+            padding-bottom: 14px;
+            padding-left: 60px;
+        }
+        .social{
+            width:100%;
+            padding-left: 24px;
+        }
+    .contacts_icon{
+        flex-direction: column;
+    }
+    }

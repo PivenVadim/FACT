@@ -1,0 +1,140 @@
+@media (max-width: 998px){
+    .header{
+        display: none;
+    }
+.header-mobile {
+    background: #FE4124;
+    width: 300px;
+    position: absolute;
+    left: 0;
+    top: 188px;
+    z-index: 99;
+    transform: translateX(-100%);
+    transition: all 1s;
+    padding-bottom: 3px;
+}
+
+.header-mobile.active {
+    transform: translateX(0);
+}
+
+.header-mobile:after, .header-mobile:before {
+    width: 120px;
+    height: 100%;
+    background-image: url();
+    display: block;
+}
+.header-mobile:before {
+    content: "";
+    position: absolute;
+    background-image: url();
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-position: top right;
+}
+.mobile-nav_header-top {
+    margin-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.mobile-nav_close {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+.mobile-nav_body {
+    margin-bottom: 15px;
+    
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.mobile-nav_item {
+    margin-bottom: 20px;   
+}
+
+.mobile-nav_item a{
+    font-family: 'CeraRoundPro';
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    z-index: 100;
+}
+
+.mobile-nav_item a:hover{
+    color:#FE4124;
+}
+
+.burger{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.burger span{
+    position: absolute;
+    top:24px;
+    left: 24px;
+    width: 15px;
+    height:2px;
+    background-color: gray;
+}
+.burger span::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 15px;
+    background-color: gray;
+}
+.burger span::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 15px;
+    background-color: gray;
+}
+.burger span::before,
+.burger span::after{
+    content: '';
+}
+.burger span::before{
+    transform: translateY(-5px);
+}
+.burger span::after{
+    transform: translateY(5px);
+}
+.burger_active span {
+    height: 0;
+}
+.burger_active span::after{
+    transform: rotate(-45deg);
+}
+.burger_active span::before{
+    transform: rotate(45deg);
+}
+
+}
+
+@media (min-width: 998px) {
+    .header-mobile{
+    position: absolute;
+    left: -256px;
+}
+}

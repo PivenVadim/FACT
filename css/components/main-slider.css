@@ -1,0 +1,104 @@
+.main-slider{
+	height: 720px;
+}
+
+.main-slider__slide {
+	position: relative;
+	height: 720px;
+}
+
+.main-slider__img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: left top;
+}
+
+.main-slider__inner-container {
+    position: relative;
+    display: flex;
+	height: 100%;
+	padding: 0 20px 115px 20px;
+	box-sizing: border-box;
+	flex-direction: column;
+    justify-content: flex-end;
+}
+
+.main-slider__description {
+	color: #fff;
+	font-size: 19px;
+	font-weight: bold;
+	font-family: 'Gilroy';
+	display: block;
+	margin-bottom: 15px;
+}
+
+.main-slider__link {
+	width: 100%;
+	display: block;
+	color: #FF4414;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Gilroy';
+	font-size: 14px;
+}
+
+.main-slider span{
+	display: flex; 
+align-items: center; 
+justify-content: center;
+box-sizing: border-box;
+}
+
+.swiper-pagination{
+display: inline-flex;
+bottom: 70px;
+left: 140px;
+width: auto;
+
+}
+
+.main-slider .swiper-pagination-bullet{
+	width: 26px;
+	height: 26px;
+	color:#fff;
+	background: transparent;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	font-family: 'CeraRoundPro';
+	font-size: 15px;
+	font-weight: bold;
+
+}
+
+
+.main-slider .swiper-pagination-bullet-active{
+	width: 26px;
+    height: 26px;
+    color: #fff;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid #fff;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'CeraRoundPro';
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.main-slider .swiper-container-horizontal>.swiper-pagination-bullets,
+.main-slider .swiper-pagination-custom,
+.main-slider .swiper-pagination-fraction {
+bottom: 60px;
+box-sizing: border-box;
+padding: 0 20px;
+max-width: 1400px;
+left: 50%;
+transform: translateX(-50%);
+}
+

@@ -1,0 +1,48 @@
+.right-popup {
+	position: absolute;
+    right: 0;
+    
+    height: 150px;
+    width: 205px;
+	background: #FFF4AE;
+}
+
+.right-popup_open {
+	width: 50px;
+	overflow: hidden;
+}
+
+.right-popup_arrow {
+	background-image: url('/img/arrow.svg');
+    background-color: red;
+    border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 16px;
+	height: 16px;
+	transform: rotate(-90deg);
+}
+
+.right-popup_content {
+	display: flex;
+    font-family: 'Marmelad';
+    font-size: 14px;
+	overflow: hidden;
+	width: 0;
+	align-items: center;
+	
+}
+
+.right-popup.active .right-popup_content {
+	width: 155px;
+}
+
+.right-popup.active .right-popup_arrow {
+	transform: rotate(90deg);
+}
+
+.right-popup_close{
+	font-family: 'CeraRoundPro';
+	font-size: 13;
+	color: gray;
+}

@@ -1,0 +1,129 @@
+.top-menu {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+    -webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.top-menu__list {
+	margin: 0;
+	padding-left: 50px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: calc(100% - 250px);
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding-right: 50px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'GothamPro';
+}
+
+.top-menu__item {
+	position: relative;
+}
+
+.arrow {
+	background-image: url('/img/arrow.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 11px;
+	height: 11px;
+	margin-left: 24px;
+	display: inline-block;
+}
+
+.top-menu__item:last-child {
+	margin-right: 0;
+}
+
+.top-menu__item:hover .top-menu__sub-menu {
+	display: block;
+}
+
+.top-menu__link {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height: 80px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 700;
+	width: 100%;
+}
+
+.top-menu__link:hover {
+	opacity: .6;
+}
+
+.top-menu__sub-menu {
+    display: none;
+	background: #313E47;
+	position: absolute;
+    padding: 0;
+    list-style: none;
+    left: 0;
+	top: 100%;
+	padding: 20px;
+	padding: 20px;
+	min-width: 200px;
+	-webkit-box-shadow: 0px 5px 4px rgba(0,0,0,.7);
+	box-shadow: 0px 5px 4px rgba(0,0,0,.7);
+}
+
+.top-menu__sub-menu-item {
+	margin-bottom: 15px;
+}
+
+.top-menu__sub-menu-item:last-child {
+	margin-bottom: 0;
+}
+
+.top-menu__sub-menu-link {
+	text-decoration: none;
+}
+
+.top-menu__sub-menu-link:hover {
+	opacity: .6;
+}
+
+@media (max-width: 1207px) {
+	.top-menu__link{
+		font-size:16px;
+	}
+	.arrow{
+		margin-left:2px;
+	}
+}
+
+@media (max-width: 1162px) {
+	.top-menu__link{
+		font-size:14px;
+	}
+}
+@media (max-width: 1044px) {
+	.top-menu__link{
+		font-size:15px;
+		flex-wrap: wrap;
+	}
+	.selectric-wrapper{
+		font-size: 13px;
+	}
+}
+@media (max-width: 1039px) {
+	.top-menu__link{
+		font-size:12px;
+	}
+}

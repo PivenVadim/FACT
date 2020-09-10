@@ -1,0 +1,64 @@
+.chief{
+    display: flex;
+    margin: auto;
+    align-content: flex-start;
+    justify-content: flex-start;
+	max-width: 1055px;
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin-bottom: 50px;
+}
+
+.chief img{
+    width: 52px;
+    height: 52px;
+}
+
+.chief-info p {
+	margin: 0;
+	line-height: normal;
+}
+
+.chief-info{
+    margin-left: 10px;
+    display: flex;
+    flex-direction:column;
+    line-height: 0.5;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.chief-info_name{
+    font-family: 'Gilroy';
+    font-size: 17px;
+    font-weight: bold;
+}
+.chief-info_position{
+    font-family: 'CeraRoundPro';
+    font-size: 15px;
+    font-weight: lighter;
+}
+.chief-info_mail{
+    margin: 0;
+    align-self: flex-end;
+    color:#FE4124;
+    font-family: 'CeraRoundPro';
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+@media (max-width: 675px){
+    .chief{
+        flex-wrap: wrap;
+    }
+    .chief-info_name{
+        margin-top: 10px;  
+    }
+    .chief-info_position{
+        margin-top: 10px;
+    }
+    .chief-info_mail{
+        margin-top: 10px;
+        margin-left: -28px;
+    }
+}

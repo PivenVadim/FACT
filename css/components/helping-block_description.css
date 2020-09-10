@@ -1,0 +1,81 @@
+
+.middle_text{
+	font-family:'GothamPro';
+}
+.middle_menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.middle_menu_item {
+	width: 25%;
+	overflow: hidden;
+	color: #fff;
+}
+
+.middle_menu_item:nth-child(3) p {
+	color: #707070;
+}
+
+.middle_menu_description a {
+	color: #313E47;
+	text-decoration: none;
+}
+
+
+.middle_menu_img {
+	height: 300px;
+	margin-bottom: -4px;
+}
+.middle_menu_description {
+	padding: 40px;
+	background: #FE4124;
+}
+
+.description_info{
+	border-bottom: dotted #fff 2px;
+
+}
+
+.middle_menu_title {
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+}
+.middle_menu_title::before {
+	content: '';
+	width: 5px;
+	height: 5px;
+	background: #fff;
+	border-radius: 50%;
+	display: block;
+	margin-right: 5px;
+}
+
+
+.middle_menu_item:nth-child(2) .middle_menu_description {
+	background: #313E47;
+}
+.middle_menu_item:nth-child(2) .middle_menu_description a {
+	color: #FE4124;
+}
+.middle_menu_item:nth-child(3) .middle_menu_description {
+	font-family: 'Marmelad';
+	background: #9FA3A5;
+}
+.middle_menu_item:nth-child(3) .middle_menu_description a {
+	font-family: 'Marmelad';
+	color: #fff;
+}
+.middle_menu_item:nth-child(4) .middle_menu_description {
+	font-family: 'Marmelad';
+	color: black;
+	background:#fff;
+}
+.middle_menu_item:nth-child(4) .middle_menu_description a {
+	color: #FE4124;
+}

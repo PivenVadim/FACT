@@ -1,0 +1,73 @@
+.main-slider3 .swiper-pagination-bullet{
+	width: 26px;
+    height: 26px;
+    color: #313E47;
+    background: transparent;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'CeraRoundPro';
+    font-size: 15px;
+	font-weight: bold;
+	opacity: 1;
+}
+
+.main-slider3 .swiper-pagination-bullet.swiper-pagination-bullet-active{
+	width: 26px;
+    height: 26px;
+    color: #313E47;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid #313E47;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'CeraRoundPro';
+    font-size: 15px;
+	font-weight: bold;
+	opacity: 1;
+}
+
+.main-slider3 span{
+	display: flex; 
+align-items: center; 
+justify-content: center;
+box-sizing: border-box;
+}
+.swiper-pagination3{
+    padding-top: 30px;
+    display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+    max-width: 1400px;
+}
+.main-slider__description3{
+font-family: 'Gilroy';
+font-size: 19px;
+font-weight: bold;
+color: white;
+}
+
+.main-slider__inner-container3{
+    display: flex; 
+    position: absolute;
+    right: 81px;
+    bottom: 75px;
+    z-index: 111;
+}
+.main-slider3 a{
+    text-decoration: none;
+    padding-left: 39px;
+}
+.main-slider3_arrow{
+    width: 26px;
+    height: 26px;
+}
+.main-slider__container3 {
+    max-width: 1400px;
+}
+@media (max-width: 576px) {
+    .main-slider3 a{
+        
+    }
+}

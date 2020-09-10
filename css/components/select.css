@@ -1,0 +1,31 @@
+.selectric-wrapper,
+.selectric,
+.selectric .label,
+.selectric .button {
+	height: 15px !important;
+	line-height: 13px !important;
+	font-size: 15px !important;
+}
+
+.selectric {
+	background: none !important;
+	border: none !important;
+	font-family: 'Gilroy';
+	font-weight: bold;
+}
+
+.selectric .label {
+	color: #fff !important;
+}
+
+.selectric .button {
+	background-color: transparent !important;
+	background-image: url('../../img/arrow.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	color: transparent !important;
+}
+
+.selectric .button:after {
+	display: none !important;
+}

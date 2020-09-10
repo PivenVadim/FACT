@@ -1,0 +1,225 @@
+.block {
+    display: flex;
+	padding-top: 26px;
+	padding-bottom: 55px;
+}
+
+.block__item {
+	width: 33.333%;
+}
+
+.block__item:nth-child(2) .block__top {
+	background-color: #313E47;
+	background-image: url("../../img/block-img2.png");
+}
+
+.block__item:nth-child(3) .block__top {
+	background-color: #fff;
+	background-image: url("../../img/block-img3.png");
+}
+
+.block__item:nth-child(3) .block__top {
+	color: #313E47;
+}
+.block__item:nth-child(3) .block__city {
+	border-bottom: 1px dotted #313E47;
+}
+
+.block__top {
+	display: flex;
+	justify-content: space-between;
+	background-color: #FE4124;
+	padding: 45px 33px;
+	color: #fff;
+	height: 515px;
+	background-image: url("../../img/block-img.png");
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	box-sizing: border-box;
+}
+
+.block__left {
+	font-size: 25px;
+	font-family: 'Marmelad';
+	line-height: 31px;
+}
+ 
+.block__right {
+	width: 160px;
+	font-family: 'CeraRoundPro';
+	font-size: 13px;
+	line-height: 21px;
+	font-weight: 400;
+}
+
+.block__city {
+	font-size: 15px;
+	font-weight: bold;
+	line-height: normal;
+	padding-top: 1px;
+	padding-bottom: 16px;
+	border-bottom: 1px dotted #fff;
+	margin-bottom: 16px;
+}
+
+.block__bottom {
+	padding: 55px 25px;
+}
+
+.block__title {
+	color: #FF2200;
+	font-size: 27px;
+	font-family: 'Marmelad';
+	margin-bottom: 18px;
+}
+
+.block__description {
+	font-size: 16px;
+	font-family: "CeraRoundPro";
+	max-width: 345px;
+	line-height: normal;
+	margin-bottom: 20px;
+}
+
+.block__ico {
+	width: 16px;
+	margin-right: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url('../../img/orange-arrow.svg') no-repeat center;
+}
+
+.block__date {
+	display: flex;
+	align-items: center;
+	font-family: "CeraRoundPro";
+	font-size: 15px;
+	font-weight: medium;
+}
+
+/*
+.block__left {
+	width: 195px;
+}
+
+.block__right {
+	width: 160px;
+}
+
+.block__right-top {
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	border-bottom: 1px dotted #fff;
+	margin-bottom: 20px;
+}
+
+.block__icon {
+	width: 5px;
+	height: 5px;
+	background: #fff;
+	border-radius: 50%;
+	margin-bottom: 3px;
+	display: inline-block;
+}
+
+.block__item {
+	width: 33.333%;
+	justify-content: space-between;
+	box-sizing: border-box;
+	color: #fff;
+	height: 515px;
+	display: flex;
+	padding: 40px 30px;
+}
+
+.block__item:first-child {
+	background-color: #FE4124;
+	background-image: url("../../img/block-img.png");
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+.block__item:nth-child(2) {
+	background-color: #313E47;
+	background-image: url("../../img/block-img2.png");
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+.block__item:nth-child(3) {
+	background-color: #FFFFFF;
+	background-image: url("../../img/block-img3.png");
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+.block__item.block__left{
+	font-family: 'Marmelad';
+	font-size: 25px;
+	color: #fff;
+}
+.block__item:nth-child(3) .block__right-top {
+	font-family: 'CeraRoundPro';
+	font-size: 15px;
+	color:black;
+	font-weight: bold;
+	border-color: #000;
+}
+
+.block__item:nth-child(3) .block__right-bottom {
+	font-family: 'CeraRoundPro';
+	font-size: 13px;
+	color:black;
+}
+
+.block__item:nth-child(3) .block__left{
+	font-family: 'Marmelad';
+	font-size: 25px;
+	color: black;
+}
+
+.block__right-top{
+	font-family: 'CeraRoundPro';
+	font-size: 15px;
+	font-weight: bold;
+
+}
+.block_text{
+	display: flex;
+	justify-content: space-between;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.block_text_item{
+	font-family: 'Marmelad';
+	font-size: 27px;
+	color: #FE4124;
+}
+.block_text_item_text{
+	font-family: 'CeraRoundPro';
+	font-size: 16px;
+}
+.block_text_item_text1{
+	font-family: 'CeraRoundPro';
+	font-size: 15px;
+	padding-bottom: 54px;
+}
+.block-text_arrow{
+	width: 16px;
+	height: 16px;
+	padding-right: 16px;
+}
+*/
+
+
+@media (max-width: 998px) {
+	.block{
+		flex-wrap: wrap;
+	}
+	
+	.block__item {
+		width: 50%;
+	}
+}
+@media (max-width: 667px) {
+	.block__item {
+		width: 100%;
+	}
+}

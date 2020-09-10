@@ -1,0 +1,52 @@
+h1{
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-size: 38px;
+		padding-bottom: 44px;
+		max-width: 1400px;
+	  margin: 0 auto;
+    }
+.city{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 50px;
+	padding-bottom: 27px;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.city a {
+	text-decoration:none;
+	font-family: 'GothamPro';
+	font-size:17px;
+	color: black;
+	font-weight: bold;
+  transition: .3s ease-in-out;
+}
+
+.city a:hover {
+  border-bottom: 3px solid #FE4124;
+}
+
+@media (max-width: 768px) {
+	h1{
+		font-size: 30px;
+		margin-left: 12px;
+		padding-bottom: 5px;
+	}
+	a{
+		font-size:22px;
+		margin-left: 12px;
+		padding-bottom: 8px;
+		text-decoration: none;
+	}
+	a:hover{
+		color:red;
+	}
+	.city{
+		flex-direction: column;
+	}
+}
+
+
+
+

@@ -1,0 +1,120 @@
+.bottom-menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+    padding-bottom: 75px;
+	padding: 0;
+	flex-wrap: wrap;
+}
+.bottom-menu_item {
+	width: 20%;
+	overflow: hidden;
+	color: #fff;
+}
+.bottom-menu_description a {
+	color: #000000;
+    text-decoration: none;
+    font-family: 'Gilroy';
+    font-size:17px;
+    font-weight: bold;
+	/* min-width: 400px; */
+	padding: 0;
+}
+
+.bottom-menu_description a:hover{
+    color: #FE4124;
+}
+
+.bottom-menu_img {
+	height: 300px;
+	margin-bottom: -4px;
+	width: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+.bottom-menu_description {
+	position: relative;
+	border-left: 1px solid #E6E6E6;
+	padding: 40px 20px 20px 20px;
+    background:#fff;
+	min-height: 208px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bottom-menu_description:hover:before{
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	top: -10px;
+	transform: translateX(-50%) rotate(45deg);
+	left: 50%;
+}
+
+.description_info{
+	border-bottom: dotted #fff 2px;
+	box-sizing: border-box;
+	padding-bottom: 20px;
+	min-width: auto;
+	font-family: 'Marmelad';
+}
+
+.bottom-menu_title {
+	font-weight: bold;
+	display: flex;
+    align-items: center;
+}
+.bottom-menu_title::before {
+	content: '';
+	width: 5px;
+	height: 5px;
+	background: #fff;
+	border-radius: 50%;
+	display: block;
+	margin-right: 5px;
+}
+.bottom-bottom_city{
+font-family: 'Gilroy';
+font-size: 14px;
+font-weight: bold;
+color: #FE4124;
+}
+.bottom-bottom_date{
+	font-family: 'Gilroy';
+	font-size: 14px;
+	font-weight: bold;
+	color:gray;
+	margin: 0;
+}
+.bottom-bottom_heading{
+	font-family: 'Gilroy';
+	font-size: 14px;
+	font-weight:lighter;
+	color:gray;
+	margin: 0;
+}
+.bottom-bottom_menu{
+	display: block;
+	/* position: absolute; */
+	margin: 0;
+
+}
+
+
+@media (max-width: 998px){
+	.bottom-menu_item{
+		width: 33%;
+	}
+}
+
+@media (max-width: 576px){
+	.bottom-menu_item{
+		width: 50%;
+	}
+}

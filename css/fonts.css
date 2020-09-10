@@ -1,0 +1,97 @@
+/* --- CeraRoundPro --- */
+@font-face
+{
+	font-family: "CeraRoundPro"; /* Normal */
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/CeraRoundPro/CeraRoundPro-Regular.eot);
+	src: url("../fonts/CeraRoundPro/CeraRoundPro-Regular.eot?#iefix") format("embedded-opentype"),
+	     url(../fonts/CeraRoundPro/CeraRoundPro-Regular.woff) format("woff"),
+	     url(../fonts/CeraRoundPro/CeraRoundPro-Regular.ttf) format("truetype");
+}
+@font-face
+{
+	font-family: "CeraRoundPro"; /* Medium */
+	font-style: normal;
+	font-weight: 500;
+	src: url(../fonts/CeraRoundPro/CeraRoundPro-Medium.eot);
+	src: url("../fonts/CeraRoundPro/CeraRoundPro-Medium.eot?#iefix") format("embedded-opentype"),
+	     url(../fonts/CeraRoundPro/CeraRoundPro-Medium.woff) format("woff"),
+	     url(../fonts/CeraRoundPro/CeraRoundPro-Medium.ttf) format("truetype");
+}
+@font-face
+{
+	font-family: "CeraRoundPro"; /* Light */
+	font-style: normal;
+	font-weight: 300;
+	src: url(../fonts/CeraRoundPro/CeraRoundPro-Light.eot);
+	src: url("../fonts/CeraRoundPro/CeraRoundPro-Light.eot?#iefix") format("embedded-opentype"),
+	     url(../fonts/CeraRoundPro/CeraRoundPro-Light.woff) format("woff"),
+	     url(../fonts/CeraRoundPro/CeraRoundPro-Light.ttf) format("truetype");
+}
+@font-face
+{
+	font-family: "CeraRoundPro"; /* Bold */
+	font-style: normal;
+	font-weight: 700;
+	src: url(../fonts/CeraRoundPro/CeraRoundPro-Bold.eot);
+	src: url("../fonts/CeraRoundPro/CeraRoundPro-Bold.eot?#iefix") format("embedded-opentype"),
+	     url(../fonts/CeraRoundPro/CeraRoundPro-Bold.woff) format("woff"),
+	     url(../fonts/CeraRoundPro/CeraRoundPro-Bold.ttf) format("truetype");
+}
+
+/* --- Gilroy --- */
+@font-face
+{
+	font-family: "Gilroy"; /* Light */
+	font-style: normal;
+	font-weight: 300;
+	src: url(../fonts/Gilroy/Gilroy-Light.eot);
+	src: url("../fonts/Gilroy/Gilroy-Light.eot?#iefix") format("embedded-opentype"),
+	     url(../fonts/Gilroy/Gilroy-Light.woff) format("woff"),
+	     url(../fonts/Gilroy/Gilroy-Light.ttf) format("truetype");
+}
+@font-face
+{
+	font-family: "Gilroy"; /* Medium */
+	font-style: normal;
+	font-weight: 500;
+	src: url(../fonts/Gilroy/Gilroy-Medium.eot);
+	src: url("../fonts/Gilroy/Gilroy-Medium.eot?#iefix") format("embedded-opentype"),
+	     url(../fonts/Gilroy/Gilroy-Medium.woff) format("woff"),
+	     url(../fonts/Gilroy/Gilroy-Medium.ttf) format("truetype");
+}
+@font-face
+{
+	font-family: "Gilroy"; /* Bold */
+	font-style: normal;
+	font-weight: 700;
+	src: url(../fonts/Gilroy/Gilroy-Bold.eot);
+	src: url("../fonts/Gilroy/Gilroy-Bold.eot?#iefix") format("embedded-opentype"),
+	     url(../fonts/Gilroy/Gilroy-Bold.woff) format("woff"),
+	     url(../fonts/Gilroy/Gilroy-Bold.ttf) format("truetype");
+}
+
+/* --- GothamPro --- */
+@font-face
+{
+	font-family: "GothamPro"; /* Bold */
+	font-style: normal;
+	font-weight: 700;
+	src: url(../fonts/GothamPro/GothamPro-Bold.eot);
+	src: url("../fonts/GothamPro/GothamPro-Bold.eot?#iefix") format("embedded-opentype"),
+	     url(../fonts/GothamPro/GothamPro-Bold.woff) format("woff"),
+	     url(../fonts/GothamPro/GothamPro-Bold.ttf) format("truetype");
+}
+
+/* --- Marmelad --- */
+@font-face
+{
+	font-family: "Marmelad"; /* Normal */
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/Marmelad/Marmelad-Regular.eot);
+	src: url("../fonts/Marmelad/Marmelad-Regular.eot?#iefix") format("embedded-opentype"),
+	     url(../fonts/Marmelad/Marmelad-Regular.woff) format("woff"),
+	     url(../fonts/Marmelad/Marmelad-Regular.ttf) format("truetype");
+}

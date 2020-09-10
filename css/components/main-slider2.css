@@ -1,0 +1,44 @@
+.main-slider2 .swiper-pagination2{
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+    max-width: 1400px;
+    padding-top: 30px;
+    padding-bottom: 43px;
+}
+.main-slider2 .swiper-pagination-bullet{
+	width: 26px;
+    height: 26px;
+    color: #313E47;
+    background: transparent;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'CeraRoundPro';
+    font-size: 15px;
+	font-weight: bold;
+	opacity: 1;
+}
+
+.main-slider2 .swiper-pagination-bullet.swiper-pagination-bullet-active{
+	width: 26px;
+    height: 26px;
+    color: #313E47;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid #313E47;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'CeraRoundPro';
+    font-size: 15px;
+	font-weight: bold;
+	opacity: 1;
+}
+
+.main-slider2 span{
+	display: flex; 
+align-items: center; 
+justify-content: center;
+box-sizing: border-box;
+}
